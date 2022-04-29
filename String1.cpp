@@ -14,7 +14,7 @@ int main()
     // cout << typeid(y).name() << endl; // can be used to get the type of the variable
 
     char s1[] = "x=10;y=20;z=35";
-    char *token = strtok(s1, "=;");
+    char *token = strtok(s1, "=;"); //String tokenizer 
     while (token != 0)
     {
         cout << token << endl;
